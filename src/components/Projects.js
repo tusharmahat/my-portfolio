@@ -86,8 +86,8 @@ function Projects() {
                         </h2>
                         <p className="project-description">My portfolio app built using ReactJS</p>
                         <div className='btn-container'>
-                            <button className="btn btn-color-2 project-btn" onClick={openEmailDemo}>Demo</button>
-                            <button className="btn btn-color-2 project-btn" onClick={openEmailGithub}>GitHub</button>
+                            <button className="btn btn-color-2 project-btn" onClick={openPortfolioDemo}>Demo</button>
+                            <button className="btn btn-color-2 project-btn" onClick={openPortfolioGithub}>GitHub</button>
                         </div>
                     </div>
                 </div>
