@@ -19,10 +19,16 @@ function Projects() {
         window.location.href = "https://github.com/tusharmahat/hackernews-pagination";
     }
     const openEmailDemo = () => {
-        window.location.href = "/#home";
+        window.location.href = "https://email-system.onrender.com/";
     }
     const openEmailGithub = () => {
         window.location.href = "https://github.com/tusharmahat/email-system";
+    }
+    const openPortfolioDemo = () => {
+        window.location.href = "/#home";
+    }
+    const openPortfolioGithub = () => {
+        window.location.href = "https://github.com/tusharmahat/my-portfolio";
     }
 
     return (
