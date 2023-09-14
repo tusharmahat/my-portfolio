@@ -184,6 +184,10 @@ section {
   text-align: left;
 }
 
+.education_container {
+  max-width: 30rem;
+}
+
 .about-pic {
   transform: rotate(-20deg);
   width: 20rem;
@@ -395,6 +399,10 @@ article div h3 {
   margin: 1rem;
   color: #000;
   min-height: 4rem;
+}
+
+.project-description {
+  max-width: 14rem;
 }
 
 .project-btn {

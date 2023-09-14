@@ -19,7 +19,7 @@ function Projects() {
         window.location.href = "https://github.com/tusharmahat/hackernews-pagination";
     }
     const openEmailDemo = () => {
-        window.location.href = "https://email-system.onrender.com";
+        window.location.href = "/#home";
     }
     const openEmailGithub = () => {
         window.location.href = "https://github.com/tusharmahat/email-system";
@@ -38,6 +38,7 @@ function Projects() {
                         <h2 className='skill-sub-title project-title'>
                             Visualization <br />Dashboard(D3js)
                         </h2>
+                        <p className="project-description">A visualization Dashboard built using D3.js</p>
                         <div className='btn-container'>
                             <button className="btn btn-color-2 project-btn" onClick={openDashboardDemo}>Demo</button>
                             <button className="btn btn-color-2 project-btn" onClick={openDashboardGithub}>GitHub</button>
@@ -50,6 +51,7 @@ function Projects() {
                         <h2 className='skill-sub-title project-title'>
                             HackerNews <br />Pagination App
                         </h2>
+                        <p className="project-description">A pagination app built using ReactJS</p>
                         <div className='btn-container'>
                             <button className="btn btn-color-2 project-btn" onClick={openPaginationDemo}>Demo</button>
                             <button className="btn btn-color-2 project-btn" onClick={openPaginationGithub}>GitHub</button>
@@ -62,6 +64,7 @@ function Projects() {
                         <h2 className='skill-sub-title project-title'>
                             Email App
                         </h2>
+                        <p className="project-description">An email app built using HTML, CSS, JS, NodeJS, ExpressJS, MongoDB</p>
                         <div className='btn-container'>
                             <button className="btn btn-color-2 project-btn" onClick={openEmailDemo}>Demo</button>
                             <button className="btn btn-color-2 project-btn" onClick={openEmailGithub}>GitHub</button>
@@ -75,6 +78,7 @@ function Projects() {
                             Portfolio<br />
                             (ReactJS)
                         </h2>
+                        <p className="project-description">My portfolio app built using ReactJS</p>
                         <div className='btn-container'>
                             <button className="btn btn-color-2 project-btn" onClick={openEmailDemo}>Demo</button>
                             <button className="btn btn-color-2 project-btn" onClick={openEmailGithub}>GitHub</button>
