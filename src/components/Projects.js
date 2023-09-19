@@ -3,6 +3,7 @@ import dashboard from "../assets/dashboard.png"
 import pagination from "../assets/pagination.png"
 import email from "../assets/email.png"
 import portfolio from "../assets/portfolio.png"
+import clothingstore from "../assets/clothingstore.png"
 import Arrow from "../components/Arrow"
 function Projects() {
     const openDashboardDemo = () => {
@@ -29,6 +30,12 @@ function Projects() {
     }
     const openPortfolioGithub = () => {
         window.location.href = "https://github.com/tusharmahat/my-portfolio";
+    }
+    const openClothingStoreDemo = () => {
+        window.location.href = "http://ps.cs.smu.ca/~u20/submissions/submission06/my_business.php";
+    }
+    const openClothingStoreGithub = () => {
+        window.location.href = "#";
     }
 
     return (
@@ -88,6 +95,19 @@ function Projects() {
                         <div className='btn-container'>
                             <button className="btn btn-color-2 project-btn" onClick={openPortfolioDemo}>Demo</button>
                             <button className="btn btn-color-2 project-btn" onClick={openPortfolioGithub}>GitHub</button>
+                        </div>
+                    </div>
+                    <div className='details-container color-container'>
+                        <div className='article-container'>
+                            <img src={clothingstore} alt='clothingstore' className='project-img' />
+                        </div>
+                        <h2 className='skill-sub-title project-title'>
+                            Clothing Store
+                        </h2>
+                        <p className="project-description">A responsive Clothing Store web app built HTML, CSS, and PHP.</p>
+                        <div className='btn-container'>
+                            <button className="btn btn-color-2 project-btn" onClick={openClothingStoreDemo}>Demo</button>
+                            <button className="btn btn-color-2 project-btn" onClick={openClothingStoreGithub}>GitHub</button>
                         </div>
                     </div>
                 </div>

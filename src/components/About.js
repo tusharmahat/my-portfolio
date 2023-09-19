@@ -15,7 +15,7 @@ function About() {
                             <p>B.Sc<br />Major in Computing Science With Minor in Mathematics</p>
                         </div>
                     </div>
-                    <div className='text-container'><p>Grretings,<br />
+                    <div className='text-container'><p>Greetings,<br />
                         &emsp;&emsp;&emsp;&emsp;I am Tushar Mahat, a recent graduate from Saint Mary's University, actively in pursuit of job opportunities. While my professional experience may be limited, I take pride in being a quick learner, driven by enthusiasm, and adept at problem-solving. My true passion is in the field of web development, and I also hold a deep enthusiasm for soccer. During my leisure hours, I often find solace in the immersive world of first-person shooter (FPS) games, where I take pleasure in refining my strategic and analytical skills.</p></div>
                 </div>
             </div>

@@ -544,13 +544,19 @@ footer p {
   #profile {
     height: fit-content;
   }
+
+  #project {
+    height: fit-content;
+  }
+
+
 }
 
 @media screen and (max-width:600px) {
 
   #contact,
   footer {
-    height: 40vh;
+    height: 60vh;
   }
 
   #profile {
@@ -606,5 +612,9 @@ footer p {
 
   .title {
     font-size: 2rem;
+  }
+
+  #project {
+    height: fit-content;
   }
 }
