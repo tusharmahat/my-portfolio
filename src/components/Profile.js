@@ -18,7 +18,7 @@ function Profile() {
     return (
         <section id="profile">
             <div className="section__pic-container" onClick={goToHome}>
-                <img id="profile_pic" src={profilePic} alt="tushar's profile" />
+                <img id="profile_pic" src={profilePic} alt="tushar's profile" onDragStart={(event) => event.preventDefault()} />
             </div>
             <div className="section__text">
                 <p className='section_text_p1'>Hello, I'm</p>

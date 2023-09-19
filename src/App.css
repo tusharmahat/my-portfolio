@@ -240,23 +240,37 @@ section {
   padding-top: 10px;
 }
 
-/* ICONS */
-.icon {
-  margin: 0 5px;
-  height: 3rem;
-  border: 0.1rem solid rgb(53, 53, 53);
-  background-color: rgb(53, 53, 53);
-  border-radius: 5px;
+.btn-holder {
+  width: 4rem;
+  background-color: #000;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  border: 0.1rem solid rgb(255, 255, 255);
   cursor: pointer;
-  padding: 2px 2px;
+}
+
+/* ICONS */
+
+.btn-holder>.icon {
+  transform: scale(1.8);
+}
+
+#github_icon {
+  transform: scale(1.56);
+}
+
+.icon {
+  height: 3rem;
+  padding: 1px;
   transition: all 30ms ease-in-out;
 }
 
-.icon:hover {
-  border: 0.1rem solid rgb(255, 255, 255);
+.btn-holder:hover {
+  border: 0.1rem solid #000;
+  box-shadow: 5px 5px 5px rgb(125, 125, 125);
 }
 
-.icon:active {
+.btn-holder:active {
   position: relative;
   top: 2px;
   box-shadow: none;
@@ -384,7 +398,7 @@ article div h3 {
 
 .project-img {
   width: 12rem;
-  height: fit-content;
+  height: 7rem;
   padding: 0.7rem;
   background: linear-gradient(to bottom right, lightgray, gray, lightgray);
   border-radius: 2rem;

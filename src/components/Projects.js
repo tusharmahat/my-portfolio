@@ -46,7 +46,7 @@ function Projects() {
                 <div className='about-containers'>
                     <div className='details-container color-container'>
                         <div className='article-container'>
-                            <img src={dashboard} alt='dashboard' className='project-img' />
+                            <img src={dashboard} alt='dashboard' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
                         <h2 className='skill-sub-title project-title'>
                             Visualization <br />Dashboard(D3js)
@@ -59,7 +59,7 @@ function Projects() {
                     </div>
                     <div className='details-container color-container'>
                         <div className='article-container'>
-                            <img src={pagination} alt='pagination' className='project-img' />
+                            <img src={pagination} alt='pagination' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
                         <h2 className='skill-sub-title project-title'>
                             HackerNews <br />Pagination App
@@ -72,7 +72,7 @@ function Projects() {
                     </div>
                     <div className='details-container color-container'>
                         <div className='article-container'>
-                            <img src={email} alt='email' className='project-img' />
+                            <img src={email} alt='email' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
                         <h2 className='skill-sub-title project-title'>
                             Email App
@@ -85,7 +85,7 @@ function Projects() {
                     </div>
                     <div className='details-container color-container'>
                         <div className='article-container'>
-                            <img src={portfolio} alt='portfolio' className='project-img' />
+                            <img src={portfolio} alt='portfolio' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
                         <h2 className='skill-sub-title project-title'>
                             Portfolio<br />
@@ -99,7 +99,7 @@ function Projects() {
                     </div>
                     <div className='details-container color-container'>
                         <div className='article-container'>
-                            <img src={clothingstore} alt='clothingstore' className='project-img' />
+                            <img src={clothingstore} alt='clothingstore' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
                         <h2 className='skill-sub-title project-title'>
                             Clothing Store

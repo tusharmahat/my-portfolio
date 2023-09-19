@@ -10,8 +10,9 @@ function Social() {
     }
     return (
         <div id="social-container">
-            <img src={linkedIn} alt="linkedin" className='icon' id="linkedin_icon" onClick={openLinkedIn} />
-            <img src={gitHub} alt="gitHub" className='icon' id="github_icon" onClick={openGitHub} />
+            <button className="btn-holder">   <img src={linkedIn} alt="linkedin" className='icon' id="linkedin_icon" onClick={openLinkedIn} onDragStart={(event) => event.preventDefault()} /></button>
+            <button className="btn-holder">
+                <img src={gitHub} alt="gitHub" className='icon' id="github_icon" onClick={openGitHub} onDragStart={(event) => event.preventDefault()} /></button>
         </div>
     );
 }
