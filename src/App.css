@@ -414,6 +414,7 @@ article div h3 {
   margin: 1rem;
   color: #000;
   min-height: 4rem;
+  display: inline-block;
 }
 
 .project-description {
