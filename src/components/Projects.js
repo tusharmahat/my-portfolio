@@ -49,7 +49,7 @@ function Projects() {
                             <img src={dashboard} alt='dashboard' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
                         <h2 className='skill-sub-title project-title'>
-                            Visualization <br />Dashboard(D3js)
+                            Visualization <br />Dashboard (D3js)
                         </h2>
                         <p className="project-description">A visualization Dashboard built using D3.js</p>
                         <div className='btn-container'>
