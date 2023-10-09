@@ -419,6 +419,7 @@ article div h3 {
 
 .project-description {
   max-width: 14rem;
+  display: inline-block;
 }
 
 .project-btn {
