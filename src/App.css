@@ -413,8 +413,6 @@ article div h3 {
 .project-title {
   margin: 1rem;
   color: #000;
-  max-width: fit-content;
-  min-width: fit-content;
   min-height: 4rem;
 }
 
@@ -431,7 +429,7 @@ article div h3 {
   border-color: rgb(163, 163, 163);
   background: rgb(245, 245, 245);
   min-width: fit-content;
-  max-width: 17vw;
+  max-width: 13vw;
 }
 
 /* CONTACT SECTION */
