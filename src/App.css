@@ -418,7 +418,7 @@ article div h3 {
 }
 
 .project-description {
-  max-width: fit-content;
+  max-width: 14rem;
 }
 
 .project-btn {
