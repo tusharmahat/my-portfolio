@@ -291,7 +291,7 @@ section {
 
 .icon-checkmark {
   width: 1.5rem;
-  height: fit-content;
+  height: 1.5rem;
   border: none;
   background-color: #fff;
   cursor: default;
@@ -348,6 +348,7 @@ section {
 }
 
 .skill-sub-title {
+  text-wrap: wrap;
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
