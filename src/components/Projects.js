@@ -20,7 +20,7 @@ function Projects() {
         window.location.href = "https://github.com/tusharmahat/hackernews-pagination";
     }
     const openEmailDemo = () => {
-        window.location.href = "https://dark-tan-sockeye-cuff.cyclic.cloud";
+        window.location.href = "https://email-system.onrender.com";
     }
     const openEmailGithub = () => {
         window.location.href = "https://github.com/tusharmahat/email-system";
