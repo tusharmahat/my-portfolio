@@ -31,12 +31,12 @@ function Projects() {
     const openPortfolioGithub = () => {
         window.location.href = "https://github.com/tusharmahat/my-portfolio";
     }
-    const openClothingStoreDemo = () => {
-        window.location.href = "http://ps.cs.smu.ca/~u20/submissions/submission06/my_business.php";
-    }
-    const openClothingStoreGithub = () => {
-        window.location.href = "#";
-    }
+    // const openClothingStoreDemo = () => {
+    //     window.location.href = "http://ps.cs.smu.ca/~u20/submissions/submission06/my_business.php";
+    // }
+    // const openClothingStoreGithub = () => {
+    //     window.location.href = "#";
+    // }
 
     return (
         <section id="projects">
