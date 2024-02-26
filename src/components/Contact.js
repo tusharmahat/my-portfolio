@@ -12,10 +12,6 @@ export default function Contact() {
                     <img src={emailIcon} alt='email' className='icon contact-icon' onDragStart={(event) => event.preventDefault()} />
                     <p><a href="mailto:tusharmahat@gmail.com">tusharmahat@gmail.com</a></p>
                 </div>
-                <div className='contact-info-container'>
-                    <img src={linkedInIcon} alt='email' className='icon contact-icon' onDragStart={(event) => event.preventDefault()} />
-                    <p><a href="https://www.linkedin.com/in/tushar-mahat/">LinkedIn</a></p>
-                </div>
             </div>
         </section>
     );

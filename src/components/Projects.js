@@ -97,7 +97,7 @@ function Projects() {
                             <button className="btn btn-color-2 project-btn" onClick={openPortfolioGithub}>GitHub</button>
                         </div>
                     </div>
-                    <div className='details-container color-container'>
+                    {/* <div className='details-container color-container'>
                         <div className='article-container'>
                             <img src={clothingstore} alt='clothingstore' className='project-img' onDragStart={(event) => event.preventDefault()} />
                         </div>
@@ -109,7 +109,7 @@ function Projects() {
                             <button className="btn btn-color-2 project-btn" onClick={openClothingStoreDemo}>Demo</button>
                             <button className="btn btn-color-2 project-btn" onClick={openClothingStoreGithub}>GitHub</button>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

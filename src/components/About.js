@@ -16,7 +16,7 @@ function About() {
                         </div>
                     </div>
                     <div className='text-container'><p>Greetings,<br />
-                        &emsp;&emsp;&emsp;&emsp;I am Tushar Mahat, a recent graduate from Saint Mary's University, actively in pursuit of job opportunities. While my professional experience may be limited, I take pride in being a quick learner, driven by enthusiasm, and adept at problem-solving. My true passion is in the field of web development, and I also hold a deep enthusiasm for soccer. During my leisure hours, I often find solace in the immersive world of first-person shooter (FPS) games, where I take pleasure in refining my strategic and analytical skills.</p></div>
+                        &emsp;&emsp;&emsp;&emsp;Ambitious and motivated recent graduate with a Bachelor of Science in Computing Science and a Minor in Mathematics from Saint Mary's University. Skilled in various programming languages, frameworks, and technologies, including Java, JavaScript, SQL, Spring Boot, and Docker. Adept at collaborating within teams and passionate about learning and applying new technologies to real-world projects. Eager to leverage academic knowledge and technical skills to contribute effectively to software development projects in a professional setting.</p></div>
                 </div>
             </div>
             <Arrow page={'./#skills'} />
