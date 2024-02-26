@@ -5,12 +5,9 @@ function Social() {
     const openLinkedIn = () => {
         window.location.href = 'https://www.linkedin.com/in/tushar-mahat/';
     }
-    const openGitHub = () => {
-        window.location.href = 'https://github.com/tusharmahat';
-    }
     return (
         <div id="social-container">
-            <button className="btn-holder">   <img src={linkedIn} alt="linkedin" className='icon' id="linkedin_icon" onClick={openLinkedIn} onDragStart={(event) => event.preventDefault()} /></button>
+            {/* <button className="btn-holder">   <img src={linkedIn} alt="linkedin" className='icon' id="linkedin_icon" onClick={openLinkedIn} onDragStart={(event) => event.preventDefault()} /></button> */}
             <button className="btn-holder">
                 <img src={gitHub} alt="gitHub" className='icon' id="github_icon" onClick={openGitHub} onDragStart={(event) => event.preventDefault()} /></button>
         </div>
