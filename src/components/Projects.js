@@ -3,7 +3,7 @@ import dashboard from "../assets/dashboard.png"
 import pagination from "../assets/pagination.png"
 import email from "../assets/email.png"
 import portfolio from "../assets/portfolio.png"
-import clothingstore from "../assets/clothingstore.png"
+// import clothingstore from "../assets/clothingstore.png"
 import Arrow from "../components/Arrow"
 function Projects() {
     const openDashboardDemo = () => {

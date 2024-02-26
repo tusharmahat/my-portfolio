@@ -1,6 +1,6 @@
 import '../App.css';
 import emailIcon from "../images/email.png";
-import linkedInIcon from "../images/linkedin.png";
+// import linkedInIcon from "../images/linkedin.png";
 
 export default function Contact() {
     return (
