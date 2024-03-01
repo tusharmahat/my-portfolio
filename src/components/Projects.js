@@ -111,8 +111,8 @@ function Projects() {
                         </div>
                     </div> */}
                 </div>
-
             </div>
+            <p className='section__text__p1'>**Check my github for my SpringBoot Monolithic and Microservices projects and many more...**</p>
             <Arrow page={'./#contact'} />
         </section>
     );
