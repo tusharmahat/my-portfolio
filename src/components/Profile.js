@@ -1,6 +1,6 @@
 import '../App.css';
 import resume from "../assets/resume.pdf"
-import profilePic from "../images/profile.jpeg";
+// import profilePic from "../images/profile.jpeg";
 import Social from "./Social.js";
 import Arrow from "../components/Arrow"
 
@@ -12,14 +12,14 @@ function Profile() {
         window.location.href = './#contact';
     }
 
-    const goToHome = () => {
-        window.location.href = '/';
-    }
+    // const goToHome = () => {
+    //     window.location.href = '/';
+    // }
     return (
         <section id="profile">
-            <div className="section__pic-container" onClick={goToHome}>
+            {/* <div className="section__pic-container" onClick={goToHome}>
                 <img id="profile_pic" src={profilePic} alt="tushar's profile" onDragStart={(event) => event.preventDefault()} />
-            </div>
+            </div> */}
             <div className="section__text">
                 <p className='section_text_p1'>Hello, I'm</p>
                 <h1 className="title">Tushar Mahat</h1>
