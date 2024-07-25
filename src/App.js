@@ -11,12 +11,22 @@ function App() {
     <div className="App">
       <Navbar />
       <Profile />
+      <br />
+      <br />
+      <br />
       <hr />
       <About />
+      <br />
+      <br />
+      <br />
       <hr />
       <Skills />
+      <br />
+      <br />
+      <br /><br /><br /><br /><br />
       <hr />
       <Projects />
+      <br /><br /><br />
       <hr />
       <Contact />
       <Footer />
