@@ -193,11 +193,17 @@ section {
 }
 
 .details-container {
+  display: flex;
+  /* Make the container a flex container */
+  flex-direction: column;
+  /* Align items in a column */
+  align-items: center;
+  /* Center-align items horizontally */
+  justify-content: center;
+  /* Center-align items vertically */
   padding: 1rem;
-  flex: 1;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) solid 0.1rem;
-  border-color: rgb(163, 163, 163);
+  border: 0.1rem solid rgb(163, 163, 163);
   text-align: center;
 }
 
@@ -439,6 +445,7 @@ article div h3 {
 
 .project-title {
   margin: 1rem;
+  margin-bottom: 0;
   color: #000;
   min-height: 4rem;
   display: inline-block;
@@ -446,6 +453,7 @@ article div h3 {
 
 .project-description {
   max-width: 14rem;
+  margin: 0;
 }
 
 .project-btn {
@@ -518,11 +526,19 @@ footer p {
   margin: 2rem auto
 }
 
+.text {
+  font-size: x-large;
+}
+
 /* Media Queries */
 @media screen and (max-width:1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
+  }
+
+  .text {
+    font-size: 22px;
   }
 
   .about-containers {
@@ -533,6 +549,10 @@ footer p {
 @media screen and (max-width:1200px) {
   #desktop-nav {
     display: none;
+  }
+
+  .text {
+    font-size: large;
   }
 
   #hamburger-nav {
@@ -596,6 +616,9 @@ footer p {
 }
 
 @media screen and (max-width:600px) {
+  .text {
+    font-size: medium;
+  }
 
   #contact,
   footer {
